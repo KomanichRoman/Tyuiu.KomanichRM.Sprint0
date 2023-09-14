@@ -12,7 +12,7 @@ namespace Tyuiu.KomanichRM.Sprint0.Task2.V0.Test
         {
             var name = "Роман";
             var res = DataService.GetMessage(name);
-
+            // Task2
             Assert.AreEqual("Привет..., Роман", res);
         }
     }
